@@ -1,0 +1,44 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/pikachin/CLionProjects/sampleLinkedList/LinkedList.cpp
+LinkedList.h
+/home/pikachin/CLionProjects/sampleLinkedList/LinkedList.h
+
+/home/pikachin/CLionProjects/sampleLinkedList/LinkedList.h
+ListNode.h
+/home/pikachin/CLionProjects/sampleLinkedList/ListNode.h
+
+/home/pikachin/CLionProjects/sampleLinkedList/ListNode.cpp
+ListNode.h
+/home/pikachin/CLionProjects/sampleLinkedList/ListNode.h
+iostream
+-
+utility
+-
+
+/home/pikachin/CLionProjects/sampleLinkedList/ListNode.h
+string
+-
+studentData.h
+/home/pikachin/CLionProjects/sampleLinkedList/studentData.h
+
+/home/pikachin/CLionProjects/sampleLinkedList/main.cpp
+iostream
+-
+ListNode.h
+/home/pikachin/CLionProjects/sampleLinkedList/ListNode.h
+
+/home/pikachin/CLionProjects/sampleLinkedList/studentData.cpp
+studentData.h
+/home/pikachin/CLionProjects/sampleLinkedList/studentData.h
+
+/home/pikachin/CLionProjects/sampleLinkedList/studentData.h
+string
+-
+
