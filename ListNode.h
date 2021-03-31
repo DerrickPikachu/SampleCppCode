@@ -11,14 +11,17 @@ using namespace std;
 
 class ListNode {
 private:
+    // Node data
     studentData data;
 
 public:
+    // The next node pointer
     ListNode* next;
+
+    // Construct the node
     ListNode(int no, int usualGrade, int midExam, int finalExam, string name);
 
-    void setNext(ListNode* nextNode);
-
+    // Output the data
     void print();
 };
 

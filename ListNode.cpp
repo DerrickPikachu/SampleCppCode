@@ -19,12 +19,12 @@ ListNode::ListNode(int no, int usualGrade, int midExam, int finalExam, string na
     this->next = NULL;
 }
 
-void ListNode::setNext(ListNode *nextNode) {
-    this->next = nextNode;
-}
-
 void ListNode::print() {
-    cout << this->data.no;
+    cout << this->data.no << " "
+         << this->data.name << " "
+         << this->data.usualGrade << " "
+         << this->data.midExam << " "
+         << this->data.finalExam << " ";
 }
 
 
