@@ -5,7 +5,7 @@
 #include "LinkedList.h"
 
 void LinkedList::insert(ListNode *node) {
-    if (head) {
+    if (!head) {
         // The list is empty
         head = node;
     } else {
@@ -26,5 +26,14 @@ void LinkedList::insert(ListNode *node) {
             node->next = front;
             back->next = node;
         }
+    }
+}
+
+void LinkedList::showList() {
+    ListNode* iterator = head;
+
+    while (iterator) {
+        iterator->print();
+        iterator = iterator->next;
     }
 }

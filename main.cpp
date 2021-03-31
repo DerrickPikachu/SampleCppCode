@@ -1,5 +1,6 @@
 #include <iostream>
 #include "ListNode.h"
+#include "LinkedList.h"
 
 using namespace std;
 
@@ -22,10 +23,28 @@ ListNode* input() {
     return new ListNode(no, usualGrade, midExam, finalExam, name);
 }
 
+bool hasNext() {
+    string check;
+
+    cout << "Do you want to input other student? yes/no:";
+    cin >> check;
+    while (check != "yes" && check != "no") {
+        cout << "Wrong input, please type your answer again:";
+        cin >> check;
+    }
+
+    return check == "yes";
+}
+
 int main() {
-//    auto* newNode = new ListNode(1, 40, 50, 60, "derrick");
-//    newNode->print();
-    ListNode* testNode = input();
-    testNode->print();
+    LinkedList studentList;
+    bool isNext = true;
+
+    while (isNext) {
+        studentList.insert(input());
+        isNext = hasNext();
+    }
+
+    studentList.showList();
     return 0;
 }

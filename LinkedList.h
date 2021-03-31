@@ -13,6 +13,8 @@ private:
 public:
     // Used to insert a new node
     void insert(ListNode* node);
+
+    void showList();
 };
 
 

@@ -6,21 +6,9 @@
 
 #IncludeRegexTransform: 
 
-/home/pikachin/CLionProjects/sampleLinkedList/LinkedList.cpp
-LinkedList.h
-/home/pikachin/CLionProjects/sampleLinkedList/LinkedList.h
-
 /home/pikachin/CLionProjects/sampleLinkedList/LinkedList.h
 ListNode.h
 /home/pikachin/CLionProjects/sampleLinkedList/ListNode.h
-
-/home/pikachin/CLionProjects/sampleLinkedList/ListNode.cpp
-ListNode.h
-/home/pikachin/CLionProjects/sampleLinkedList/ListNode.h
-iostream
--
-utility
--
 
 /home/pikachin/CLionProjects/sampleLinkedList/ListNode.h
 string
@@ -33,10 +21,8 @@ iostream
 -
 ListNode.h
 /home/pikachin/CLionProjects/sampleLinkedList/ListNode.h
-
-/home/pikachin/CLionProjects/sampleLinkedList/studentData.cpp
-studentData.h
-/home/pikachin/CLionProjects/sampleLinkedList/studentData.h
+LinkedList.h
+/home/pikachin/CLionProjects/sampleLinkedList/LinkedList.h
 
 /home/pikachin/CLionProjects/sampleLinkedList/studentData.h
 string

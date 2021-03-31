@@ -24,7 +24,7 @@ void ListNode::print() {
          << this->data.name << " "
          << this->data.usualGrade << " "
          << this->data.midExam << " "
-         << this->data.finalExam << " ";
+         << this->data.finalExam << " " << endl;
 }
 
 int ListNode::getNumber() {
