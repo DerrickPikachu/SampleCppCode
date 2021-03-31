@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/sampleLinkedList.dir/main.cpp.o CMakeFiles/sampleLinkedList.dir/LinkedList.cpp.o CMakeFiles/sampleLinkedList.dir/ListNode.cpp.o CMakeFiles/sampleLinkedList.dir/studentData.cpp.o  -o sampleLinkedList 
