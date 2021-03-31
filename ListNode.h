@@ -21,6 +21,8 @@ public:
     // Construct the node
     ListNode(int no, int usualGrade, int midExam, int finalExam, string name);
 
+    int getNumber();
+
     // Output the data
     void print();
 };

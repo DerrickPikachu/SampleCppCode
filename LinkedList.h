@@ -8,8 +8,7 @@
 
 class LinkedList {
 private:
-    ListNode* head;
-    ListNode* tail;
+    ListNode* head = NULL;
 
 public:
     // Used to insert a new node

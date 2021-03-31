@@ -27,6 +27,10 @@ void ListNode::print() {
          << this->data.finalExam << " ";
 }
 
+int ListNode::getNumber() {
+    return data.no;
+}
+
 
 
 
